@@ -1,7 +1,8 @@
 repo_name: jadenblack/appwrite
 report_id: 50ff3471d460b74b45f3179d0bb08962
+version: 0.1
 repo_type: Public
-timestamp: '2023-12-14T17:36:01+00:00'
+timestamp: '2024-01-05T08:22:50+00:00'
 requested_by: TorstenDittmann
 provider: github
 branch: main
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/jadenblack/appwrite
   detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
@@ -26,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/jadenblack/appwrite
   detection_source: Repo Metadata
 - name: ".NET"
   description: A free, cross-platform, open source developer platform for building
@@ -37,6 +40,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/docker-compose.yml
   detection_source: docker-compose.yml
   last_updated_by: eldadfux
   last_updated_on: 2019-05-09 06:54:39.000000000 Z
@@ -48,6 +52,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/app/preload.php
   detection_source: app/preload.php
   last_updated_by: Eldad Fux
   last_updated_on: 2021-05-03 21:05:25.000000000 Z
@@ -59,6 +64,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/docker-compose.yml
   detection_source: docker-compose.yml
   last_updated_by: eldadfux
   last_updated_on: 2019-05-09 06:54:39.000000000 Z
@@ -84,6 +90,7 @@ tools:
   category: Data Stores
   sub_category: Database Tools
   image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/tests/resources/longtext.txt
   detection_source: tests/resources/longtext.txt
 - name: Chronograf
   description: 'It is the user interface and administrative component '
@@ -122,6 +129,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/jadenblack/appwrite
   detection_source: Repo Metadata
 - name: Docker Compose
   description: Define and run multi-container applications with Docker
@@ -132,6 +140,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Container Tools
   image_url: https://img.stackshare.io/service/3136/docker-compose.png
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/docker-compose.yml
   detection_source: docker-compose.yml
   last_updated_by: Matej Bačo
   last_updated_on: 2022-11-08 17:30:18.000000000 Z
@@ -143,6 +152,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/jadenblack/appwrite
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -152,6 +162,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/.github/workflows/cleanup-cache.yml
   detection_source: ".github/workflows/cleanup-cache.yml"
   last_updated_by: Steven Nguyen
   last_updated_on: 2023-08-30 22:39:05.000000000 Z
@@ -163,6 +174,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Load Balancer / Reverse Proxy
   image_url: https://img.stackshare.io/service/1179/preview.png
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/docker-compose.yml
   detection_source: docker-compose.yml
   last_updated_by: Matej Bačo
   last_updated_on: 2023-09-06 08:26:27.000000000 Z
@@ -174,6 +186,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/docker-compose.yml
   detection_source: docker-compose.yml
   last_updated_by: eldadfux
   last_updated_on: 2019-05-09 06:54:39.000000000 Z
@@ -228,6 +241,7 @@ tools:
   category: Application Hosting
   sub_category: Platform as a Service
   image_url: https://img.stackshare.io/service/139/s01TMTGn.png
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/docker-compose.yml
   detection_source: docker-compose.yml
   last_updated_by: Eldad Fux
   last_updated_on: 2021-01-16 15:10:20.000000000 Z
@@ -240,6 +254,7 @@ tools:
   category: Collaboration
   sub_category: Meeting Scheduling
   image_url: https://img.stackshare.io/service/939/_6vPmLhj.png
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/docker-compose.yml
   detection_source: docker-compose.yml
   last_updated_by: Steven Nguyen
   last_updated_on: 2023-09-27 17:46:48.000000000 Z
@@ -249,6 +264,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/7285/icon.png
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/docker-compose.yml
   detection_source: docker-compose.yml
   last_updated_by: shimon
   last_updated_on: 2023-10-15 17:41:09.000000000 Z
@@ -261,6 +277,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Operating Systems
   image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/docker-compose.yml
   detection_source: docker-compose.yml
   last_updated_by: Torsten Dittmann
   last_updated_on: 2022-07-25 13:54:15.000000000 Z
@@ -273,6 +290,7 @@ tools:
   category: Communications
   sub_category: Email API
   image_url: https://img.stackshare.io/service/240/mPMj_ee5.png
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/composer.json
   detection_source: composer.json
   last_updated_by: Torsten Dittmann
   last_updated_on: 2022-06-01 14:39:12.000000000 Z
@@ -284,6 +302,7 @@ tools:
   category: Communications
   sub_category: Large Language Model Tools
   image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/tests/resources/longtext.txt
   detection_source: tests/resources/longtext.txt
 - name: Shell
   description: A shell is a text-based terminal, used for manipulating programs and
@@ -294,6 +313,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/jadenblack/appwrite
   detection_source: Repo Metadata
 - name: dragonmantank/cron-expression
   description: 'CRON for PHP: Calculate the next or previous run date and determine
