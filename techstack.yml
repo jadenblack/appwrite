@@ -1,0 +1,436 @@
+repo_name: jadenblack/appwrite
+report_id: 50ff3471d460b74b45f3179d0bb08962
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:03:26+00:00'
+requested_by: TorstenDittmann
+provider: github
+branch: main
+detected_tools_count: 34
+tools:
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/jadenblack/appwrite
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/jadenblack/appwrite
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: eldadfux
+  last_updated_on: 2019-05-09 06:54:39.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/app/preload.php
+  detection_source: app/preload.php
+  last_updated_by: Eldad Fux
+  last_updated_on: 2021-05-03 21:05:25.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: eldadfux
+  last_updated_on: 2019-05-09 06:54:39.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  version: 7.0.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Torsten Dittmann
+  last_updated_on: 2022-07-25 13:54:15.000000000 Z
+- name: pgvector
+  description: Open-source vector similarity search for Postgres
+  website_url: https://github.com/pgvector/pgvector/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/tests/resources/longtext.txt
+  detection_source: tests/resources/longtext.txt
+- name: Chronograf
+  description: It is the user interface and administrative component
+  website_url: https://www.influxdata.com/time-series-platform/chronograf/
+  version: '1.6'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/9371/YwbWN39g_400x400.jpg
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: shimon
+  last_updated_on: 2023-10-15 17:41:09.000000000 Z
+- name: Composer
+  description: Dependency Manager for PHP
+  website_url: https://getcomposer.org/
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/1688/New_Project__65_.png
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Torsten Dittmann
+  last_updated_on: 2021-12-28 12:37:54.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/jadenblack/appwrite
+  detection_source: Repo Metadata
+- name: Docker Compose
+  description: Define and run multi-container applications with Docker
+  website_url: https://github.com/docker/compose
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/3136/docker-compose.png
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Matej Bačo
+  last_updated_on: 2022-11-08 17:30:18.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/jadenblack/appwrite
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/.github/workflows/cleanup-cache.yml
+  detection_source: ".github/workflows/cleanup-cache.yml"
+  last_updated_by: Steven Nguyen
+  last_updated_on: 2023-08-30 22:39:05.000000000 Z
+- name: HAProxy
+  description: The Reliable, High Performance TCP/HTTP Load Balancer
+  website_url: http://www.haproxy.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Load Balancer / Reverse Proxy
+  image_url: https://img.stackshare.io/service/1179/preview.png
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Matej Bačo
+  last_updated_on: 2023-09-06 08:26:27.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: eldadfux
+  last_updated_on: 2019-05-09 06:54:39.000000000 Z
+- name: PHPUnit
+  description: Testing framework for PHP
+  website_url: https://phpunit.de/
+  version: 9.5.20
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Torsten Dittmann
+  last_updated_on: 2022-08-01 10:22:04.000000000 Z
+- name: Telegraf
+  description: The plugin-driven server agent for collecting &amp; reporting metrics
+  website_url: https://www.influxdata.com/time-series-platform/telegraf/
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/4480/YwbWN39g_400x400.jpg
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: shimon
+  last_updated_on: 2023-10-15 17:41:09.000000000 Z
+- name: Traefik
+  description: The Cloud Native Edge Router
+  website_url: https://traefik.io/
+  version: '2.9'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Load Balancer / Reverse Proxy
+  image_url: https://img.stackshare.io/service/5126/default_0a34be001ec8247c641508aa468564fb386bc50c.png
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Jake Barnby
+  last_updated_on: 2022-11-08 08:33:13.000000000 Z
+- name: Google App Engine
+  description: Build web applications on the same scalable systems that power Google
+    applications
+  website_url: https://developers.google.com/appengine
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/139/s01TMTGn.png
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Eldad Fux
+  last_updated_on: 2021-01-16 15:10:20.000000000 Z
+- name: Assistant.to
+  description: Quick and easy way to schedule meetings in gmail without the back &amp;
+    forth
+  website_url: https://www.assistant.to
+  open_source: false
+  hosted_saas: true
+  category: Collaboration
+  sub_category: Meeting Scheduling
+  image_url: https://img.stackshare.io/service/939/_6vPmLhj.png
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Steven Nguyen
+  last_updated_on: 2023-09-27 17:46:48.000000000 Z
+- name: Adminer
+  description: Full-featured database management tool written in PHP.
+  website_url: https://www.adminer.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/7285/icon.png
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: shimon
+  last_updated_on: 2023-10-15 17:41:09.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Torsten Dittmann
+  last_updated_on: 2022-07-25 13:54:15.000000000 Z
+- name: Context.IO
+  description: A REST email API that makes it easy and fast to integrate your user's
+    email data in your application.
+  website_url: http://context.io
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Email API
+  image_url: https://img.stackshare.io/service/240/mPMj_ee5.png
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/composer.json
+  detection_source: composer.json
+  last_updated_by: Torsten Dittmann
+  last_updated_on: 2022-06-01 14:39:12.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/tests/resources/longtext.txt
+  detection_source: tests/resources/longtext.txt
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/jadenblack/appwrite
+  detection_source: Repo Metadata
+- name: dragonmantank/cron-expression
+  description: 'CRON for PHP: Calculate the next or previous run date and determine
+    if a CRON expression is due'
+  package_url: https://packagist.org/dragonmantank/cron-expression
+  version: 3.3.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Damodar Lohani
+  last_updated_on: 2023-07-23 06:46:23.000000000 Z
+- name: influxdb/influxdb-php
+  description: InfluxDB client library for PHP
+  package_url: https://packagist.org/influxdb/influxdb-php
+  version: 1.15.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Jake Barnby
+  last_updated_on: 2023-11-09 23:11:21.000000000 Z
+- name: league/csv
+  description: CSV data manipulation made easy in PHP
+  package_url: https://packagist.org/league/csv
+  version: 9.7.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Jake Barnby
+  last_updated_on: 2023-08-31 04:14:34.000000000 Z
+- name: phpmailer/phpmailer
+  description: PHPMailer is a full-featured email creation and transfer class for
+    PHP
+  package_url: https://packagist.org/phpmailer/phpmailer
+  version: 6.8.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Matej Bačo
+  last_updated_on: 2023-09-13 17:29:58.000000000 Z
+- name: phpunit/phpunit
+  description: The PHP Unit Testing framework
+  package_url: https://packagist.org/phpunit/phpunit
+  version: 9.5.20
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Matej Bačo
+  last_updated_on: 2023-09-13 17:29:58.000000000 Z
+- name: squizlabs/php_codesniffer
+  description: PHP_CodeSniffer tokenizes PHP
+  package_url: https://packagist.org/squizlabs/php_codesniffer
+  version: 3.7.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Matej Bačo
+  last_updated_on: 2023-09-13 17:29:58.000000000 Z
+- name: swoole/ide-helper
+  description: IDE help files for Swoole
+  package_url: https://packagist.org/swoole/ide-helper
+  version: 5.0.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Damodar Lohani
+  last_updated_on: 2023-07-25 09:04:11.000000000 Z
+- name: textalk/websocket
+  description: WebSocket client and server
+  package_url: https://packagist.org/textalk/websocket
+  version: 1.5.7
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Jake Barnby
+  last_updated_on: 2022-10-19 23:10:41.000000000 Z
+- name: webonyx/graphql-php
+  description: A PHP port of GraphQL reference implementation
+  package_url: https://packagist.org/webonyx/graphql-php
+  version: 14.11.10
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/jadenblack/appwrite/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Jake Barnby
+  last_updated_on: 2023-11-09 23:11:21.000000000 Z
